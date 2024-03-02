@@ -1,0 +1,5 @@
+2024-03-02T19:02:32+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Pro"
+2024-03-02T19:02:51+00:00 INFO Payment gateway enabled: "Transferencia bancaria directa"
+2024-03-02T19:03:02+00:00 INFO Payment gateway enabled: "Mercado Pago - Cuotas sin tarjeta"
+2024-03-02T19:03:04+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Personalizado"
+2024-03-02T19:03:09+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Personalizado"

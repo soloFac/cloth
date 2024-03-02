@@ -1,0 +1,9 @@
+nombre de la base de datos: cloth
+nombre de usuario: root
+contraseña:
+servidor: localhost
+prefijo de la tabla: wp_
+
+Titulo del sitio: cloth
+nombre de usuario: francodprl
+contraseña: rahEoosL)dI11T%$FDDD
