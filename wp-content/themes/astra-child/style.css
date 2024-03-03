@@ -1,11 +1,451 @@
 /*
 Theme Name:   Astra Child
-Description:  Tema hijo - Astra child 
-Author:       Diaf
-Author URL:   https://www.diaf.com.ar
-Template:     Astra
+Description:  Descripción del tema hijo
+Author:       Franco Pérez de la Rosa - Diaf Argentina
+Author URL:   https://www.diaf.com
+Template:     astra
 Version:      1.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  astra-child
 */
+
+:root {
+  --product-font-color: #ffffff;
+}
+
+/* ------------------ HEADER ------------------- */
+.ast-desktop .ast-primary-header-bar.main-header-bar, .ast-header-break-point #masthead .ast-primary-header-bar.main-header-bar {
+  margin-bottom: 0px !important;
+}
+
+/* NAV HEADER */
+.site-header-section>div:first-child {
+  margin-left: 2em;
+}
+/* ------------------ FIN ------------------- */
+
+
+
+
+
+/* ---------  OTRA ALTERNATIVA AL RESPONSIVE --------- */
+
+/* PRODUCT CONTAINER */
+/* .ast-article-single.ast-woo-product-no-review.desktop-align-left.tablet-align-left.mobile-align-left.product.type-product.post-1801.status-draft.first.instock.product_cat-sin-categorizar.has-post-thumbnail.taxable.shipping-taxable.purchasable.product-type-simple {
+  position: relative !important;
+  height: 100vh !important;
+} */
+
+/* PRODUCT IMG */
+/* .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images{
+  position: absolute !important;
+  height: 100vh !important;
+} */
+
+/* .woocommerce-product-gallery__image {
+  height: 100vh !important;
+} */
+
+/* .cart {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ast-stock-detail{
+  margin-top: 20px;
+}
+
+.cart,
+.product_meta {
+  position: absolute !important;
+}
+
+.cart {
+  bottom: 70px !important;
+}
+
+.product_meta{
+  bottom: 10px !important;
+} */
+
+/* PRODUCT INFO */
+/* .summary.entry-summary  {
+  position: relative !important;
+  height: 100vh !important;
+  background-color: #ffffff70;
+}
+
+.product_title.entry-title {
+  margin-top: 1em !important;
+} */
+
+
+
+/* ELEMENTS COLOR */
+/* .summary.entry-summary, 
+.product_title.entry-title,
+.single_add_to_cart_button.button.alt,
+.stock.in-stock,
+bdi {
+  color: var(--product-font-color) !important;
+  text-shadow: black 1px 1px 5px !important;
+}
+
+.single_add_to_cart_button.button.alt {
+  border-color: white !important;
+  box-shadow: black 1px 1px 5px !important;
+} */
+
+/* --------- FIN --------- */
+
+
+/* ------------------ PRODUCT PAGE ------------------ */
+
+.variations {
+  
+}
+
+/* .woocommerce-product-gallery__image{
+  height: 60vh !important;
+  overflow: hidden !important;
+} */
+
+/* --------- FIN --------- */
+
+
+.ast-container {
+  padding: 0 !important;
+}
+
+.content-area.primary {
+  padding: 0 !important;
+}
+
+/* .woocommerce-product-gallery__image a img {
+  width: 100% !important;
+} */
+
+/* ------- CART ICON MENU ------- */
+.ast-builder-layout-element .site-header-focus-item .ast-header-woo-cart {
+  margin-right: 100px !important;
+}
+
+/* ------- MENU NAV ------- */
+.ast-builder-menu-1 .ast-builder-menu.ast-flex .ast-builder-menu-1-focus-item .ast-builder-layout-element .site-header-focus-item {
+  margin-left: 20px !important;
+}
+
+/* ------- CATEGORY ------- */
+.single-product-category {
+  display: none !important;
+}
+
+.ast-separate-container #primary, 
+.ast-separate-container .ast-left-sidebar #primary,
+.ast-separate-container .ast-right-sidebar #primary{
+  margin: 0 0 !important;
+}
+
+/* ------- CART IMAGE BUTTON ------- */
+.ast-builder-layout-element .site-header-focus-item .ast-header-woo-cart .personalize-product-page{
+  width: min-content !important;
+  height: min-content !important;
+  margin: 0px 0px 20px 0px !important;
+  position: absolute !important;
+  right: 20px !important;
+  top: 10px !important;
+  z-index: 9999 !important;
+  /* z-index: 9999 !important; */
+}
+.ast-woo-header-cart-info-wrap {
+  visibility: hidden !important;
+}
+.ast-site-header-cart .ast-addon-cart-wrap i.astra-icon:after, .ast-theme-transparent-header .ast-site-header-cart .ast-addon-cart-wrap i.astra-icon:after {
+  color: #efefef;
+}
+
+/* ------- LUPA PARA ZOOM ------- */
+.woocommerce-js div.product div.images .woocommerce-product-gallery__trigger {
+  background: transparent;
+  /* border: 2px solid white; */
+  /* box-shadow: 1px 1px 5px white; */
+}
+
+.woocommerce-js div.product div.images .woocommerce-product-gallery__trigger:before {
+  border-color: white;
+}
+
+.woocommerce-js div.product div.images .woocommerce-product-gallery__trigger:after {
+  background: white;
+}
+
+
+
+/* ------- MEDIAS QUERIES ------- */
+
+@media (min-width: 671px) {
+  .ast-builder-layout-element .site-header-focus-item .ast-header-woo-cart .personalize-product-page{
+    display: none !important;
+  }
+}
+
+@media (max-width: 921px){
+  .woocommerce-notices-wrapper {
+    display: none !important;
+  }
+
+  .ast-woocommerce-container {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+  }
+
+  .ast-woocommerce-container:nth-child(2),
+  .ast-article-single .ast-woo-product-no-review .desktop-align-left .tablet-align-left .mobile-align-left .product .type-product {
+    width: 85vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    /* background: blue; */
+    justify-content: space-evenly !important;
+    /* margin: 0em 2em !important; */
+    /* align-items: flex-start !important; */
+  }
+
+  /* .ast-woocommerce-container > * {
+    margin-right: 2em !important;
+  } */
+
+  /* .summary.entry-summary {
+    width: 50vw !important;
+  } */
+
+  .woocommerce-product-gallery__wrapper,
+  .woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 .images {
+    width: min-content !important;
+  }
+
+  /* PRODUCT PAGE */
+  .variations {
+    width: 360px !important;
+  }
+
+  /* ------- PRODUCT INFO CONTAINER ------- */
+  .summary .entry-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35vw !important;
+    /* background-color: blue; */
+    /* padding: 0 2em !important; */
+    margin: 0 2em !important;
+  }
+
+  /* ------- IMAGE PRODUCT CONTAINER ------- */
+  .woocommerce-product-gallery__image {
+    background-color: rosybrown;
+    width: 310px !important;
+  }
+
+  .ast-woocommerce-container {
+    padding: 0 !important;
+  }
+
+  .ast-separate-container #primary, .ast-separate-container #secondary {
+    padding: 0 !important;
+  }
+
+  .ast-separate-container .ast-woocommerce-container {
+    padding: 1.5em 2.14em !important;
+  }
+
+  /* #content {
+    position: absolute !important;
+    top: 0 !important;
+    z-index: 99 !important;
+  } */
+}
+
+@media (max-width: 740px) {
+  .summary .entry-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw !important;
+    /* background-color: blue; */
+    /* padding: 0 2em !important; */
+    margin: 0 2em !important;
+  }
+
+  .woocommerce-js div.product div.images .woocommerce-product-gallery__trigger {
+    left: 0.5em !important;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .ast-woocommerce-container {
+    padding: 0 0 !important;
+  }
+  .woocommerce-product-gallery__image {
+    background-color: rosybrown;
+    width: 90vw !important;
+  }
+}
+
+@media (min-width: 768px){
+  .summary .entry-summary {
+    padding: 0em 1em !important;
+  }
+
+  /* 310px img */
+  
+}
+
+/* ------------------ FIN ------------------- */
+
+.woocommerce-cart-form__cart-item .cart_item{
+  display: table-row !important;
+}
+
+.flex-control-nav, .flex-control-thumbs,
+.additional_information_tab {
+  display: none !important;
+}
+
+.cart_totals, 
+.calculated_shipping {
+  width: 100% !important;
+}
+
+/* ------- CARRITO DE COMPRAS ------- */
+
+/* TR */
+.shop_table .shop_table_responsive{
+  table-layout: unset !important;
+}
+
+.shop_table .shop_table_responsive th {
+  /* color: white !important; */
+  /* display: block !important; */
+  width: min-content !important;
+
+}
+
+/* button.button[name="update_cart"][value="Actualizar carrito"] {
+  display: none !important;
+} */
+
+td.actions {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* th.product-remove,
+th.product-thumbnail,
+span.screen-reader-text {
+  display: block !important;
+  background-color: red;
+} */
+
+th.product-thumbnail {
+  width: 102px !important;
+}
+
+
+
+/* --------------- CHECKOUT ---------------  */
+
+.woocommerce-checkout-review-order-table {
+  display: table !important;
+}
+
+/* Information Form */
+.checkout .woocommerce-checkout  {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Mercado Pago Checkout */
+form #order_review_heading:not(.elementor-widget-woocommerce-checkout-page #order_review_heading),
+form #order_review:not(.elementor-widget-woocommerce-checkout-page #order_review) {
+  width: 90% !important;
+}
+
+/* ------------------- CART ------------------- */
+
+.shop_table .shop_table_responsive .cart .woocommerce-cart-form__contents tr{
+  width: 85vw !important;
+}
+
+#woocommerce-cart-nonce {
+  display: none !important;
+}
+
+td.actions {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+}
+
+.woocommerce-js #content table.cart .button, .woocommerce-page #content table.cart .button {
+  /* width: 100% !important; */
+  width: 180px !important;
+  /* background-color: red !important; */
+}
+
+button[name="update_cart"] {
+  display: none !important;
+  width: 180px !important;
+  margin-left: 2em !important;
+}
+
+/* ------------------- CART ------------------- */
+
+
+@media (max-width: 920px) {
+  /* ------------------- PRODUCT ------------------- */
+
+  /* .woocommerce-breadcrumb {
+    display: none !important;
+  } */
+}
+
+@media screen and (min-width: 920px) {
+
+  /* ------------------- CART ------------------- */
+  .shop_table .shop_table_responsive .cart .woocommerce-cart-form__contents{
+    display: table !important;
+  }
+  
+  
+  .shop_table .shop_table_responsive .cart .woocommerce-cart-form__contents thead tr,
+  .shop_table .shop_table_responsive .cart .woocommerce-cart-form__contents tbody tr {
+    display: table-row !important;
+  }
+  
+  .shop_table .shop_table_responsive .cart .woocommerce-cart-form__contents td {
+    display: table-cell !important;
+  }
+}
+
+/* 
+.woocommerce-cart-form__cart-item .cart_item td::before {
+  content: "" !important;
+} */

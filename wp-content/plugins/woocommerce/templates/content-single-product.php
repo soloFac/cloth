@@ -45,6 +45,20 @@ if ( post_password_required() ) {
 
 	<div class="summary entry-summary">
 		<?php
+			// Eliminar el header en el Product Page
+			echo '<script>
+							const query = window.matchMedia("(max-width: 670px)");
+							const ocultarHeader = () => document.querySelector("header").style.display = "none";
+							const mostrarHeader = () => document.querySelector("header").style.display = "block";
+							
+							query.addListener(e => e.matches ? ocultarHeader() : mostrarHeader());
+							
+							if (query.matches) {
+								ocultarHeader();
+							}
+							
+							// document.querySelector("header").style.display = "none";
+						</script>';
 		/**
 		 * Hook: woocommerce_single_product_summary.
 		 *
