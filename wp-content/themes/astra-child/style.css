@@ -19,10 +19,25 @@ Text Domain:  astra-child
   margin-bottom: 0px !important;
 }
 
+.ast-builder-grid-row.ast-grid-center-col-layout {
+  height: 15vh !important;
+}
+
 /* NAV HEADER */
 .site-header-section>div:first-child {
-  margin-left: 2em;
+  margin-left: 1em;
 }
+
+.site-header-primary-section-right .site-header-section ast-flex .ast-grid-right-section {
+  margin-right: 3em !important;
+}
+
+
+/* @media (min-width: 976px) {
+  .wp-block-uagb-container .uagb-block-a9ab6ca1 {
+    margin-left: 100px !important;
+  }
+} */
 /* ------------------ FIN ------------------- */
 
 
